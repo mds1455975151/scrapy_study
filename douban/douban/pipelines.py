@@ -6,7 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import json
 import codecs
-import scrapy
+
 
 class DoubanPipeline(object):
     def process_item(self, item, spider):
